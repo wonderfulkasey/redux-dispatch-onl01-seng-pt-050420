@@ -1,4 +1,4 @@
-
+let state = {count: 0};
 
 function changeState(state, action){
   switch (action.type) {
@@ -8,6 +8,8 @@ function changeState(state, action){
       return state;
   }
 }
+
+
 
 let state = {count: 0}
 let action = {type: 'INCREASE_COUNT'}
